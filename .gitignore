@@ -1,0 +1,32 @@
+# Entornos virtuales
+.venv/
+venv/
+tox-env/
+.tox/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos generados por el empaquetamiento
+build/
+dist/
+*.egg-info/
+
+# Archivos privados
+*.pem
+*.key
+.env
+.env.*
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+# Copias de datasets
+model/datasets/bankchurn_test - Copy.csv
+# Datasets excluidos del repositorio publico
+model/datasets/bankchurn_train.csv
+model/datasets/bankchurn_test.csv
